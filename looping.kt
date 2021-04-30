@@ -1,8 +1,10 @@
 fun main(){
+
 var angka = 0
-    while(angka > 5){ //Menghasilkan Nilai False
+    do{
         println("Sukses")
+        angka++
+    }while (angka < 5)
 }
-  
   
   
